@@ -2,10 +2,10 @@ source "https://rubygems.org"
 
 gem "rake", "10.4.2"
 gem "rails", "4.2.8"
-gem "sprockets", "2.12.3" # Latest version of sprockets 2.*. 3.* causes a failure at startup
+gem "sprockets", "2.12.5" # Latest version of sprockets 2.*. 3.* causes a failure at startup
 gem "mysql2"
 gem "haml-rails"
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.1"
 gem "uglifier", ">= 1.3.0"
 gem "jquery-rails"
 gem "cancan", "~> 1.6"
