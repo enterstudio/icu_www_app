@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
-gem "rake", "10.4.2"
+gem "rake", "12.3.3"
 gem "rails", "4.2.8"
 gem "sprockets", "2.12.3" # Latest version of sprockets 2.*. 3.* causes a failure at startup
 gem "mysql2"
-gem "haml-rails"
-gem "sass-rails", "~> 5.0"
+gem "haml-rails", ">= 0.8.2"
+gem "sass-rails", "~> 5.0", ">= 5.0.1"
 gem "uglifier", ">= 1.3.0"
-gem "jquery-rails"
+gem "jquery-rails", ">= 4.0.3"
 gem "cancan", "~> 1.6"
 gem "redis"
 gem "therubyracer", platforms: :ruby
@@ -19,19 +19,19 @@ gem "mailgun-ruby", require: "mailgun"
 gem "paperclip", "~> 4.1"
 gem "colored"
 gem "whenever", :require => false
-gem "quiet_assets"
+gem "quiet_assets", ">= 1.1.0"
 
 group :development do
-  gem "capistrano-rails", "~> 1.1"
+  gem "capistrano-rails", "~> 1.1", ">= 1.1.2"
   gem "wirble"
 end
 
 group :development, :test do
-  gem "rspec-rails", "~> 3.0"
+  gem "rspec-rails", "~> 3.2", ">= 3.2.1"
   gem "capybara"
   gem "selenium-webdriver"
   gem "chromedriver-helper"
-  gem "factory_girl_rails", "~> 4.0", require: false
+  gem "factory_girl_rails", "~> 4.5", ">= 4.5.0", require: false
   gem "launchy"
   gem "faker"
   gem "database_cleaner"
