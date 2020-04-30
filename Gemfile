@@ -6,7 +6,7 @@ gem "sprockets", "2.12.3" # Latest version of sprockets 2.*. 3.* causes a failur
 gem "mysql2"
 gem "haml-rails"
 gem "sass-rails", "~> 5.0"
-gem "uglifier", ">= 1.3.0"
+gem "uglifier", ">= 2.7.1"
 gem "jquery-rails"
 gem "cancan", "~> 1.6"
 gem "redis"
@@ -14,8 +14,8 @@ gem "therubyracer", platforms: :ruby
 gem "icu_name"
 gem "icu_utils", "1.3.1", git: 'https://github.com/ninkibah/icu_utils.git'
 gem "redcarpet"
-gem "stripe"
-gem "mailgun-ruby", require: "mailgun"
+gem "stripe", ">= 1.36.1"
+gem "mailgun-ruby", "1.1.1"
 gem "paperclip", "~> 4.1"
 gem "colored"
 gem "whenever", :require => false
