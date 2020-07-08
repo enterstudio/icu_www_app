@@ -7,7 +7,7 @@ gem "mysql2"
 gem "haml-rails"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
-gem "jquery-rails"
+gem "jquery-rails", ">= 4.0.4"
 gem "cancan", "~> 1.6"
 gem "redis"
 gem "therubyracer", platforms: :ruby
