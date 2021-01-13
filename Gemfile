@@ -13,7 +13,7 @@ gem "redis"
 gem "therubyracer", platforms: :ruby
 gem "icu_name"
 gem "icu_utils", "1.3.1", git: 'https://github.com/ninkibah/icu_utils.git'
-gem "redcarpet"
+gem "redcarpet", ">= 3.5.1"
 gem "stripe"
 gem "mailgun-ruby", require: "mailgun"
 gem "paperclip", "~> 4.1"
