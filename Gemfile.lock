@@ -41,7 +41,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.7)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     archive-zip (0.7.0)
       io-like (~> 0.3.0)
     arel (6.0.4)
@@ -111,8 +112,8 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.6)
-    launchy (2.4.3)
-      addressable (~> 2.3)
+    launchy (2.5.0)
+      addressable (~> 2.7)
     libv8 (3.16.14.7)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
@@ -137,6 +138,7 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
       mime-types
+    public_suffix (4.0.6)
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.5)
@@ -257,7 +259,7 @@ DEPENDENCIES
   icu_name
   icu_utils (= 1.3.1)!
   jquery-rails
-  launchy
+  launchy (>= 2.4.3)
   mailgun-ruby
   mysql2
   paperclip (~> 4.1)
@@ -277,4 +279,4 @@ DEPENDENCIES
   wirble
 
 BUNDLED WITH
-   1.14.6
+   1.17.3

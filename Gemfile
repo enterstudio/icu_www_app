@@ -32,7 +32,7 @@ group :development, :test do
   gem "selenium-webdriver"
   gem "chromedriver-helper"
   gem "factory_girl_rails", "~> 4.0", require: false
-  gem "launchy"
+  gem "launchy", ">= 2.4.3"
   gem "faker"
   gem "database_cleaner"
   #gem "byebug"
