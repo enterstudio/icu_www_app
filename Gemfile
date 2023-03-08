@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
 gem "rake", "10.4.2"
-gem "rails", "4.2.8"
-gem "sprockets", "2.12.3" # Latest version of sprockets 2.*. 3.* causes a failure at startup
+gem "rails", "5.0.0"
+gem "sprockets", "3.3.5" # Latest version of sprockets 2.*. 3.* causes a failure at startup
 gem "mysql2"
 gem "haml-rails"
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.5"
 gem "uglifier", ">= 1.3.0"
 gem "jquery-rails"
 gem "cancan", "~> 1.6"
@@ -27,11 +27,11 @@ group :development do
 end
 
 group :development, :test do
-  gem "rspec-rails", "~> 3.0"
+  gem "rspec-rails", "~> 3.5", ">= 3.5.0"
   gem "capybara"
   gem "selenium-webdriver"
   gem "chromedriver-helper"
-  gem "factory_girl_rails", "~> 4.0", require: false
+  gem "factory_girl_rails", "~> 4.5", ">= 4.5.0", require: false
   gem "launchy"
   gem "faker"
   gem "database_cleaner"
