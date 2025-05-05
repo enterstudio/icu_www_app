@@ -27,7 +27,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "rspec-rails", "~> 3.0"
+  gem "rspec-rails", "~> 8.0", ">= 8.0.0"
   gem "capybara"
   gem "selenium-webdriver"
   gem "chromedriver-helper"
